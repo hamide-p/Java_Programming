@@ -80,7 +80,16 @@ public class WrapperClassMethods {
 
         int sum = 0;
 
-        string.toCharArray();
+        for (char each : string.toCharArray()) {
+
+            if(Character.isDigit(each)){ // converted to the number 1
+              sum +=  Integer.parseInt("" + each);// convert String by concatenating
+            }
+        }
+
+
+        System.out.println("sum = " + sum);
+
 
 
 
@@ -90,3 +99,5 @@ public class WrapperClassMethods {
 
     }
 }
+
+
