@@ -1,0 +1,34 @@
+Java Programming Day17
+
+Topics: Custom Class Intro
+		- Class vs Object
+		- Instance Variables & Methods
+		- toString()
+
+package name: day17_customClass
+
+Warmup Tasks:
+	1. Write a program that can find the unique characters from a String
+			Ex:
+				str = "aabcccd"
+
+				output:
+					bd
+
+	2. Write a program that can find the frequency of the characters from a string
+
+                Ex:
+                        str = "aabcccd";
+
+                        output:
+                                a2b1c3d1
+
+
+
+        Instances:
+Everytime when you create objects from the class
+from each instance variables and methods separate
+copy will be shared by the objects. Each object have separate
+copies of those instance variables and methods. Benefit is for each
+you will be able to store different information for those variables.
+
