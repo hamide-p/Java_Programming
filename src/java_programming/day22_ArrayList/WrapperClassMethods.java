@@ -35,7 +35,7 @@ public class WrapperClassMethods {
 
         String s = "20.5";
 
-         double num3 = Double.parseDouble(s);
+        double num3 = Double.parseDouble(s);
 
         System.out.println(num3);
 
@@ -46,9 +46,9 @@ public class WrapperClassMethods {
         System.out.println("...................");
 
         String x = "true";
-       boolean r1 = Boolean.parseBoolean(x);
+        boolean r1 = Boolean.parseBoolean(x);
 
-      Boolean r2 = Boolean.valueOf(x);
+        Boolean r2 = Boolean.valueOf(x);
 
         System.out.println(r1);
         System.out.println(r2);
@@ -57,7 +57,7 @@ public class WrapperClassMethods {
 
         char ch = '1';
 
-       boolean isDigit = Character.isDigit(ch);
+        boolean isDigit = Character.isDigit(ch);
         boolean isLetter = Character.isLetter(ch);
         boolean isLowerCaseLetter = Character.isLowerCase(ch);
         boolean isUpperCaseLetter = Character.isUpperCase(ch);
