@@ -86,7 +86,7 @@ public class RemoveDuplicates {
         System.out.println("n1 = " + n1);
         System.out.println("n2 = " + n2);
 
-        System.out.println(n1.equals(n2)); // It's not in the same order that's why it's not equal even if they have the same objects, and it gives always false.
+        System.out.println(n1.equals(n2)); // It's not in the same order that's why they are not equal even if they have the same objects, and it gives always false.
 
 
 
