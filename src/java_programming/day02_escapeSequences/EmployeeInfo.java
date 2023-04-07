@@ -13,13 +13,6 @@ public class EmployeeInfo {
         System.out.println("Salary: $95000");
 
 
-        String yunus = "sen";
-        String hamide = "ben";
-        String ask = "sen ve ben";
-
-        System.out.println(yunus+hamide);
-
-
 
     }
 
