@@ -20,8 +20,8 @@ By using new keyword ---> String str1 = new String ("Hello Yalcin");
 What happens if you don't initialize an array?
 
 The array elements will be initialized to their default values.
-
-For primitive and non- primitive data types are such as;
-byte, short, int, long, float, double,char =  0
+For primitive data types:
+byte, short, int, long, float, double, char =  0
 boolean = false
+For non-primitive :
 object references = null
