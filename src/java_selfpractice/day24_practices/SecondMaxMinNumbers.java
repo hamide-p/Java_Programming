@@ -26,19 +26,6 @@ public class SecondMaxMinNumbers {
         list.addAll(Arrays.asList(1, 1, -2, -2, -2, 3, 4, 5, 6, 7, 8, 8, 8, 8));
 
 
-      /*  int max = Collections.max(list);
-
-        int min = Collections.min(list);
-
-
-        list.removeIf(p->p==max||p==min);
-
-        int max2 = Collections.max(list);
-        int min2 = Collections.min(list);
-
-        System.out.println("second maximum number is: "+ max2
-                +"\nsecond minimum number is: "+ min2);*/
-
 
 
     }
