@@ -111,6 +111,7 @@ public class RemoveIfMethodPractice {
         System.out.println(maleDogs);
 
 
+
         System.out.println("\n..............................");
 
         Dog[] dogs2 = {new Dog(), new Dog(), new Dog(), new Dog(), new Dog(), new Dog()};
