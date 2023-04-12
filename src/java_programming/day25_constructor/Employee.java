@@ -1,6 +1,7 @@
 package java_programming.day25_constructor;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Employee {
 
@@ -35,7 +36,7 @@ public class Employee {
                 ", gender=" + gender +
                 ", jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +
-                ", hiredDate=" + hiredDate +
+                ", hiredDate=" + hiredDate.format(DateTimeFormatter.ofPattern("MMMM/dd/y")) +
                 '}';
     } // allows us to print the object when it's passed in the print statement
 
