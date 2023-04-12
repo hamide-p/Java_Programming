@@ -31,8 +31,8 @@ public class DateTimeFormatterIntro {
       * "MMMM" -->Month name (January, February, March… etc.) /April
       * "d" --> Day number /11
       * "dd" --> Day number (Includes 0 for number of 0 ~ 9) /11
-      * "E" --> Day name (Monday, Tuesday… etc.) / Tuesday
-      * "EEE" --> Days of week abbreviation (Mon, Tue… etc.) /Tue
+      * "EEEE" --> Day name (Monday, Tuesday… etc.) / Tuesday
+      * "E" --> Days of week abbreviation (Mon, Tue… etc.) /Tue
       * "y MMMM dd" --> 2023 April 11
       * "y/MMMM/dd" --> 2023/April/11
       * "MMMM-dd-yy" --> April-11-23  we can replace the pattern of the date
@@ -63,6 +63,7 @@ public class DateTimeFormatterIntro {
       * "mm" --> Minute format (Includes 0 for number of 0 ~ 9)
       * "s" --> Second format
       * "ss" --> Second format (Includes 0 for number of 0 ~ 9)
+      * "a" --> Am/pm.
 
  */
 
@@ -78,9 +79,21 @@ public class DateTimeFormatterIntro {
 
 
 
+        System.out.println("\n..............................");
+
+        /*
+        use the LocalDateTime get the date and time in the following format:
+            Tuesday, 1:00 pm, Nov/24/2020
+         */
 
 
 
+        DateTimeFormatter df1 = DateTimeFormatter.ofPattern("EEEE, h : mm a, MMM/dd/y");
+
+        LocalDateTime dateTime1 = LocalDateTime.of(2020,11,24,13,00 );
+
+
+        System.out.println(dateTime1.format(df1));
 
     }
 }
