@@ -8,13 +8,7 @@ public class ConstructorCalls {
         System.out.println("....");
 
         method2();
-
-
-
-
     }
-
-
 
 
 /*
@@ -27,7 +21,6 @@ public class ConstructorCalls {
   * one constructor can not call more than one constructor. There is a limitation.
   * constructor can not call or contain itself as this would result in an infinite loop.
  */
-
 
 
     public ConstructorCalls(){
@@ -56,13 +49,6 @@ public class ConstructorCalls {
     }
 
 
-
-
-
-
-
-
-
     /*
        for regular methods:
     *  they can call each other by their method names
@@ -79,10 +65,8 @@ public class ConstructorCalls {
         method1();
         System.out.println("Method 2");
       //  method2();
-
-
-
-
-
     }
+
+
+
 }
