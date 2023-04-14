@@ -48,12 +48,16 @@ public class StudentsGroup { // StudentGroup HAS A Student
   */
     public void  addStudent(Student student ){
         students.add(student);
-    } // Takes one student object, and adds it to the arraylist of students
+    }
 
 
+    /*
+   * overloaded method
+   * takes one array of students, and adds the array of students to the arraylist of students
+    */
     public void addStudent(Student[] students){
         this.students.addAll(Arrays.asList(students));
-    } // Takes one array of students, and adds the array of students to the arraylist of students
+    }
 
 
 
@@ -74,5 +78,15 @@ public class StudentsGroup { // StudentGroup HAS A Student
 
     public void removeStudent(String id){
         students.removeIf(p -> p.id.equals(id));
+    }
+
+
+
+    public String toString() {
+        return "StudentsGroup{" +
+                "groupName='" + groupName + '\'' +
+                ", groupId=" + groupId +
+                ", number of students=" + students.size() +
+                '}';
     }
 }
