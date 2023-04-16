@@ -53,7 +53,7 @@ public class ConstructorCalls {
        for regular methods:
     *  they can call each other by their method names
     *  this. : to call instance variables & instance methods
-    *  methods can be before or after the print statement
+    *  methods can be before or after the statement
     *  method can call or contain itself
      */
 
