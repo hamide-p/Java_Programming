@@ -5,7 +5,7 @@ public class ErrorPrinting {
 
 
         System.err.println("Hello World, How are you today?"); // prints the given string of text as an error message
-        // short-cut==>serr + Enter
+        // short-cut ==> serr + Enter 
 
 
 
