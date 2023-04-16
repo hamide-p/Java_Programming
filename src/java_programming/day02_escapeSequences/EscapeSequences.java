@@ -11,7 +11,7 @@ public class EscapeSequences {
         System.out.println("-------------------------------------");
         System.out.println("\\");
         System.out.println(" ------------------------------------");
-        System.out.println("My favourite Tv show is \"The Walking Dead\"");
+        System.out.println("My favourite Tv show is \"Dexter\"");
 
         /*
         1. \n: New Line
