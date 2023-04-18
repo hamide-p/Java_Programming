@@ -15,7 +15,7 @@ public class Circle {
 			calcArea(): returns the area of Circle
 			calcPerimeter(): returns the perimeter of Circle
 			printPi(): displays PI value
-			toString(): displays the radius, diameter, pi, area and perimeter of the java_programming.day27_accessModifiers.circle when the object of java_programming.day27_accessModifiers.circle is passed in the print statement
+			toString(): displays the radius, diameter, pi, area and perimeter of the circle when the object of java_programming.day27_accessModifiers.circle is passed in the print statement
 
      */
 
