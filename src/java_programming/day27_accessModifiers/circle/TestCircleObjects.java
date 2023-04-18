@@ -12,7 +12,6 @@ public class TestCircleObjects {
         Circle circle3 = new Circle(7);
 
 
-
         System.out.println(circle1);
         System.out.println(circle2);
         System.out.println(circle3);
@@ -23,6 +22,6 @@ public class TestCircleObjects {
         System.out.println(circle3.pi);
 
 
-      //  System.out.println(Circle.radius); // compile error ==> radius belongs to the object and class CAN'T share what the object has
+        //  System.out.println(Circle.radius); // compile error ==> radius belongs to the object and class CAN'T share what the object has
     }
 }
