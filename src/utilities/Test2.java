@@ -20,19 +20,20 @@ public class Test2 {
 
         System.out.println(f);
 
+
         method4();
 
        /*
 
-        non-static members can not be called by " import static packageName.className.* "
+        non-static members can not be called by " import static packageName.className.*  "
 
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
         method1();
         method2();
-       */
 
+       */
 
 
     }
