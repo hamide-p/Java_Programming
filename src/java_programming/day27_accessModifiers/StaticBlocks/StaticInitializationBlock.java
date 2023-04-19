@@ -8,7 +8,9 @@ public class StaticInitializationBlock {
 
 
     /*
-    public static ExcelSheet sheet; ==> in order to set this variable we need static blocks ==> static blocks get executed automatically when the class loaded but other method blocks NOT!!
+    public static ExcelSheet sheet;
+     ==> in order to set this variable we need static blocks
+     ==> static blocks get executed automatically when the class loaded but other method blocks NOT!!
     */
     static {
 
