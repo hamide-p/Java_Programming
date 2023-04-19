@@ -1,4 +1,4 @@
-package java_programming.day27_accessModifiers;
+package java_programming.day27_accessModifiers.StaticBlocks;
 
 public class StaticBlock {
    /*
@@ -7,6 +7,8 @@ public class StaticBlock {
    • first all the static blocks get executed then main method
    • a static block is also called static initialization block
    • gets executed one time for all the objects
+   • whenever you have static sets to be initialized use STATIC BLOCK
+   • whenever you have instance variable to be initialized use CONSTRUCTOR
 
     static{
         System.out.println("Static Block");
