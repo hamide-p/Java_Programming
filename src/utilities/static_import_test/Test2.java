@@ -1,4 +1,4 @@
-package utilities;
+package utilities.static_import_test;
 // import java_programming.day27_accessModifiers.Data;
 // import static java_programming.day27_accessModifiers.Data.d; // we don't need to use the class name implicitly ==> when we want only static members
 // import static java_programming.day27_accessModifiers.Data.method3; // calling one by one from static class
