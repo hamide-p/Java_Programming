@@ -7,7 +7,9 @@ public class StaticInitializationBlock {
     public static String c;
 
 
-    // public static ExcelSheet sheet; ==> in order to set this variable we need static blocks ==> static blocks get executed automatically when the class loaded but other method blocks NOT!!
+    /*
+    public static ExcelSheet sheet; ==> in order to set this variable we need static blocks ==> static blocks get executed automatically when the class loaded but other method blocks NOT!!
+    */
     static {
 
         a = 100;
@@ -35,9 +37,6 @@ public class StaticInitializationBlock {
         b=20.5;
         c ="Java";
     */
-
-
-
 
 
 }
