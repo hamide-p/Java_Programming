@@ -30,9 +30,7 @@ public class InstanceInitializationBlock {
     }
 
 
-
     public static void main(String[] args) {
-
 
 
         InstanceInitializationBlock obj1 = new InstanceInitializationBlock("James", 25);
@@ -42,7 +40,6 @@ public class InstanceInitializationBlock {
         System.out.println(obj1.name);
         System.out.println(obj2.name);
     }
-
 
 
 }
