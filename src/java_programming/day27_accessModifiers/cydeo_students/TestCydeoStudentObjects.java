@@ -1,6 +1,4 @@
-package java_programming.day27_accessModifiers.CydeoStudents;
-
-import java_programming.day27_accessModifiers.CydeoStudents.CydeoStudent;
+package java_programming.day27_accessModifiers.cydeo_students;
 
 public class TestCydeoStudentObjects {
     public static void main(String[] args) {
