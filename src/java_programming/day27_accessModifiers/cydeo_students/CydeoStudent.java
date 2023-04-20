@@ -19,15 +19,13 @@ public class CydeoStudent {
             secretCode = "Wooden Spoon"; // don't use it in the constructor, cause it sets the secretCode for each of the object one by one
         */
 
-        }
+    }
 
 
-
-        static{
+    static {
         schoolName = "Cydeo School"; // Cydeo School assigned to the schoolName only one time
         secretCode = "Wooden Spoon";
-        }
-
+    }
 
 
     public String toString() {
