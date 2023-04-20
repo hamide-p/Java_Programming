@@ -1,6 +1,4 @@
-package java_programming.day27_accessModifiers;
-
-import org.w3c.dom.ls.LSOutput;
+package java_programming.day27_accessModifiers.instance_block;
 
 public class InstanceInitializationBlock {
 
