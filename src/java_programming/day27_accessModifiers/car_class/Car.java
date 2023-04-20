@@ -1,7 +1,7 @@
 package java_programming.day27_accessModifiers.car_class;
 
 public class Car { // outer class
-
+    // public static class Car { ==> compile error, outer class can't be static
 
     public String make, model, color;
     public int year;
