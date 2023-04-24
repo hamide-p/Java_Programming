@@ -8,13 +8,14 @@ public class AccessModifiers {
       Private ==>    Default ==>   Protected =>   Public
       more restrictive        ==>       less restrictive
 
-    •  private: A private class, method or variable can only be accessed within the same class ==> class
+    • private: A private class, method or variable can only be accessed within the same class, but we can't access in different class even if it's subclass !! (However, getter/setter methods helps to access it)     ======> class
 
-    • default: A default class, method or variable can only be accessed within the same class and package.We don't have keyword for default access modifier     ==> class / package
+    • default: A default class, method or variable can only be accessed within the same class and in the same package but different class. We don't have keyword for default access modifier
+            ======> class / package
 
-    • protected: A protected class, method or variable can only be accessed within the same class and package or by a subclass in a different package             ==> class / package / subClass
+    • protected: A protected class, method or variable can only be accessed within the same class and in the same package but different class or  by a subclass in a different package                                 ======> class / package / subClass
 
-    • public: A public class, method or variable can be accessed from anywhere in the program       ==> class / package / subClass /  world
+    • public: A public class, method or variable can be accessed from anywhere in the program                     ======> class / package / subClass /  world
 
     • we can also use in constructor
 
@@ -64,7 +65,6 @@ public class AccessModifiers {
         publicMethod(); // accessible within the ==> class / package / subClass /  world
         protectedMethod(); // accessible within the ==> class / package / subClass
         defaultMethod(); // accessible within the ==> class / package
-
         privateMethod(); // accessible within the ==> class
 
 
