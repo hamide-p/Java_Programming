@@ -37,6 +37,10 @@ public class Circle {
         return diameter * pi;
     }
 
+    public static void printPi() {
+        System.out.println("PI's value: " + pi);
+    }
+
     @Override
     public String toString() {
         return "Circle{" +

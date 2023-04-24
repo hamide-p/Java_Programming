@@ -9,7 +9,7 @@ public class CircleTestObject {
 
         System.out.println(circle1);
 
-        System.out.println(Circle.pi);
+        Circle.printPi();
 
 
     }
