@@ -103,8 +103,8 @@ public class Person {
                 "name='" + name + '\'' +
                 ", language='" + language + '\'' +
                 ", age=" + age +
-                ", gender=" + gender +  '\'' +
-                ", planet=" + planet +  '\'' +
+                ", gender=" + gender + '\'' +
+                ", planet=" + planet + '\'' +
                 '}';
     }
 }
