@@ -33,7 +33,7 @@ public class AccessModifiers {
 
     protected static int protectedData = 300;
 
-    static int DefaultDate = 400; // we don't have keyword for default access modifier
+    static int DefaultDate = 400; // we don't have keyword for default access modifier. Default modifier comes default. So we don't need to write it.
 
     private static int privateData = 500;
 
