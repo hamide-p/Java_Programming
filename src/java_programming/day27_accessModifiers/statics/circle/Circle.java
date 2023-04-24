@@ -1,4 +1,4 @@
-package java_programming.day27_accessModifiers.circle;
+package java_programming.day27_accessModifiers.statics.circle;
 
 public class Circle {
 
@@ -15,7 +15,7 @@ public class Circle {
 			calcArea(): returns the area of Circle
 			calcPerimeter(): returns the perimeter of Circle
 			printPi(): displays PI value
-			toString(): displays the radius, diameter, pi, area and perimeter of the circle when the object of java_programming.day27_accessModifiers.circle is passed in the print statement
+			toString(): displays the radius, diameter, pi, area and perimeter of the circle when the object of java_programming.day27_accessModifiers.Static.circle is passed in the print statement
 
      */
 
@@ -47,7 +47,7 @@ public class Circle {
 
 
      */
-    public double calcArea() { // can't be static cause java_programming.day27_accessModifiers.circle area can be changeable
+    public double calcArea() { // can't be static cause java_programming.day27_accessModifiers.Static.circle area can be changeable
         return radius * radius * pi; // return the square of radius
     }
 

@@ -1,4 +1,4 @@
-package java_programming.day27_accessModifiers.circle;
+package java_programming.day27_accessModifiers.statics.circle;
 
 public class TestCircleObjects {
 

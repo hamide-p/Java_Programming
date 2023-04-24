@@ -1,6 +1,4 @@
-package java_programming.day27_accessModifiers;
-
-import java.lang.reflect.Constructor;
+package java_programming.day27_accessModifiers.statics;
 
 public class StaticBlock_vsInstanceBlock_vs_Constructor {
 

@@ -1,6 +1,4 @@
-package java_programming.day27_accessModifiers.car_class;
-
-import java_programming.day27_accessModifiers.car_class.Car;
+package java_programming.day27_accessModifiers.statics.car_class;
 
 public class TestNestedClassObjects {
 

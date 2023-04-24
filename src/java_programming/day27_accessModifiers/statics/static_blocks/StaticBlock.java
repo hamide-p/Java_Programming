@@ -1,4 +1,4 @@
-package java_programming.day27_accessModifiers.static_blocks;
+package java_programming.day27_accessModifiers.statics.static_blocks;
 
 public class StaticBlock {
    /*

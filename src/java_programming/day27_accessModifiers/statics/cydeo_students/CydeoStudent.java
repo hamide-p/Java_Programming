@@ -1,4 +1,4 @@
-package java_programming.day27_accessModifiers.cydeo_students;
+package java_programming.day27_accessModifiers.statics.cydeo_students;
 
 public class CydeoStudent {
 

@@ -1,4 +1,4 @@
-package java_programming.day27_accessModifiers.car_class;
+package java_programming.day27_accessModifiers.statics.car_class;
 
 public class Car { // outer class
     // public static class Car { ==> compile error, outer class can't be static

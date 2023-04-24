@@ -1,4 +1,4 @@
-package java_programming.day27_accessModifiers.instance_block;
+package java_programming.day27_accessModifiers.statics.instance_block;
 
 public class InstanceBlock {
 
