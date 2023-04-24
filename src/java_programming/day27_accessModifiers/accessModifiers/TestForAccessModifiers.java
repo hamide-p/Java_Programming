@@ -1,4 +1,6 @@
-package java_programming.day27_accessModifiers;
+package java_programming.day27_accessModifiers.accessModifiers;
+
+import java_programming.day27_accessModifiers.accessModifiers.AccessModifiers;
 
 public class TestForAccessModifiers {
 
