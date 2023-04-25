@@ -98,7 +98,7 @@ public class Person {
     }
 
     @Override
-    public String toString() {
+    public String toString() { // instance method accepts both instance and static
         return "Person{" +
                 "name='" + name + '\'' +
                 ", language='" + language + '\'' +
@@ -106,5 +106,7 @@ public class Person {
                 ", gender=" + gender + '\'' +
                 ", planet=" + planet + '\'' +
                 '}';
+
+
     }
 }
