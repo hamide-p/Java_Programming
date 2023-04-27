@@ -19,7 +19,6 @@ public class TestPersonObjects {
 
         // Person.planet = "Mars"; // calling by class name ==> have the same copies of all the objects ==> have the same planet name
 
-
         System.out.println(person1);
         System.out.println(person2);
         System.out.println(person3);
