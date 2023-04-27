@@ -1,4 +1,4 @@
-package java_programming.day28_encapsulation.encapsulation;
+package java_programming.day28_encapsulation.student;
 
 public class Student {
 
