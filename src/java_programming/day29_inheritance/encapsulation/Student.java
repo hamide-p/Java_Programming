@@ -55,7 +55,6 @@ public class Student {
         this.age = age;
     }
 
-
     public char getGender() {
         return gender;
     }
