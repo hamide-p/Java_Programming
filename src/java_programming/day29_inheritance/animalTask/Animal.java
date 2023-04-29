@@ -52,7 +52,7 @@ public class Animal {
     }
 
     public String toString() {
-        return "Animal{" +
+        return getClass().getSimpleName() + "{" + // getClass: ( it gives full class info ==> package & class name ) , getSimpleName(): (it gives us only the class name)
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
