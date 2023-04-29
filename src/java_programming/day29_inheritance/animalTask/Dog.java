@@ -35,7 +35,7 @@ public class Dog extends Animal { // Dog is Animal ==> all the attributes, varia
 
 
     public void bark() { // we can define bark method in Dog class
-        System.out.println(name + " is barking");
+        System.out.println(getName() + " is barking");
     }
 
         /*

@@ -14,12 +14,12 @@ public class Animal {
 
     // we don't need to declare in another classes
 
-    public String name;
-    public String breed;
-    public char gender;
-    public int size;
-    public String color;
-    public int age;
+    private String name;
+    private String breed;
+    private char gender;
+    private String size;
+    private String color;
+    private int age;
 
     public static boolean isAnimal = true; // same value of all the objects
 
@@ -29,7 +29,7 @@ public class Animal {
         isAnimal = true;
     }
 
-    public void setInfo(String name, String breed, char gender, int size, String color, int age) { // without applying encapsulation we don't need to use setMethod here(setter) ==> instance variables are public
+    public void setInfo(String name, String breed, char gender, String size, String color, int age) { // without applying encapsulation we don't need to use setMethod here(setter) ==> instance variables are public
         this.name = name;
         this.breed = breed;
         this.gender = gender;
@@ -49,6 +49,56 @@ public class Animal {
 
     public void sleep() {
         System.out.println(name + " is sleeping");
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public String toString() {
