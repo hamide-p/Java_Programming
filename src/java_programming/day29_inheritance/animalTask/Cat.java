@@ -1,6 +1,6 @@
 package java_programming.day29_inheritance.animalTask;
 
-public class Cat extends Dog {
+public class Cat extends Animal {
 
 
             /*
