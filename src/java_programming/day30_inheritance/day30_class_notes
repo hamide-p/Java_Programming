@@ -1,0 +1,86 @@
+Java Programming Day30
+
+Topics: OOP Inheritance
+			Constructor
+			Types of Inheritance
+
+package name: day30_inheritance
+
+Warmup tasks:
+	1. Create a named Phone:
+				Variables:
+					brand, model, size, price, color
+
+				Encapsulate all the fields
+					Conditions:
+						1. price can not be zero or negative
+						2. color can only be set to:
+								{"Black", "White", "Silver", "Gold", "Pink"}
+
+				Add a constructor that can set all the fields
+
+				Methods:
+					call(long phoneNumber)
+					text(long phoneNumber)
+					toString()
+
+	2. Create the following sub classes of Phone:
+
+			2.1 Iphone:
+					Extra methods:
+						faceTime(phoneNumber)
+						faceTile(email)
+
+			2.2 Samsung:
+					Extra methods:
+						freeze()
+
+			2.3 Nokia:
+					Extra methods:
+						selfDefense()
+
+
+
+OOP Inheritance: to build IS A relationship between the classes (parent/child,  super/sub)
+
+				easiest way to get rich ===> extends
+
+				Child class (sub): can inherit all the variables & methods that are accessible/visible from the parent class
+
+				Parent class (super): can NOT inherit anything from child class. contains all the common features (variables/methods) of all child classes
+
+				Class A extends Class B
+				       (child)   (parent)
+
+				Constructors cannot be inherited to any child class because they have the same name as the class and therefore cannot be inherited like other methods.
+				Constructors have to have the same name as the class they belong to, and therefore they cannot be inherited with the class.
+				When a subclass is derived from a superclass, it does not inherit the constructor of the superclass. Instead, the subclass must define its own constructor, which can call the constructor of the superclass using the "super" keyword.
+				The reason for this is that the constructor is a special method that is used to initialize the object and allocate memory for its instance variables. Since the subclass has its own set of instance variables, it needs to have its own constructor to initialize them properly.
+
+
+				Advantages:
+					less codes
+					improves the re-usability
+					clean
+					less memory usage
+					easy to maintain
+
+
+				One class can ONLY extend one class
+				One class can be extended by MULTIPLE classes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
