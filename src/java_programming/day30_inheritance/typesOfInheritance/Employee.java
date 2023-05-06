@@ -1,14 +1,15 @@
 package java_programming.day30_inheritance.typesOfInheritance;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public class Employee extends Person{
+public class Employee extends Person {
 
     private String employeeId;
     private String jobTitle;
     private double salary;
 
-    public Employee(String name, char gender, LocalDateTime DOB, String employeeId, String jobTitle, double salary) {
+    public Employee(String name, char gender, LocalDate DOB, String employeeId, String jobTitle, double salary) {
         super(name, gender, DOB);
         setEmployeeId(employeeId);
         setJobTitle(getJobTitle());
@@ -40,7 +41,7 @@ public class Employee extends Person{
     }
 
 
-    public void work(){
+    public void work() {
         System.out.println(getName() + " is working");
     }
 

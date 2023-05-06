@@ -8,24 +8,18 @@ public class Person {
     private String name;
     private int age;
     private char gender;
-    private LocalDateTime DOB;// date of birth
+    private LocalDate DOB;// date of birth
 
     private double salary;
     private String schoolName;
 
 
-
-
-    public Person(String name, char gender, LocalDateTime DOB) {
+    public Person(String name, char gender, LocalDate DOB) {
         setName(name);
         setGender(gender);
         setDOB(DOB);
-        setAge( LocalDate.now().getYear()- DOB.getYear()); // current year - return the birth year = age
+        setAge(LocalDate.now().getYear() - DOB.getYear()); // current year - return the birth year = age
     }
-
-
-
-
 
 
     public String getName() {
@@ -41,7 +35,7 @@ public class Person {
     }
 
     public void setAge(int age) {
-        if (age<=0){
+        if (age <= 0) {
             System.err.println("Age can not be negative or zero");
             System.exit(1);
         }
@@ -56,11 +50,11 @@ public class Person {
         this.gender = gender;
     }
 
-    public LocalDateTime getDOB() {
+    public LocalDate getDOB() {
         return DOB;
     }
 
-    public void setDOB(LocalDateTime DOB) {
+    public void setDOB(LocalDate DOB) {
         this.DOB = DOB;
     }
 
@@ -81,18 +75,18 @@ public class Person {
     }
 
 
-    public void eat(String food){
+    public void eat(String food) {
         System.out.println(name + " is eating food" + food);
     }
 
-    public void drink(String drink){
+    public void drink(String drink) {
         System.out.println(name + " is drinking " + drink);
     }
 
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() +"{" + // we are getting the name of the class
+        return getClass().getSimpleName() + "{" + // we are getting the name of the class
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +

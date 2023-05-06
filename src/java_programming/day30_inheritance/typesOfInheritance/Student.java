@@ -10,7 +10,7 @@ public class Student extends Person{
     private String studentId;
 
 
-    public Student(String name, char gender, LocalDateTime DOB, char grade, String studentId) {
+    public Student(String name, char gender, LocalDate DOB, char grade, String studentId) {
         super(name, gender, DOB);
         setGrade(grade); // including additional instance variables grade and studentId
         setStudentId(studentId);
