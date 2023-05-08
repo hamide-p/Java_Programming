@@ -30,7 +30,7 @@ public class Square extends Shape { // parent class constructor called by defaul
 
     @Override
     public void draw() {
-        System.out.println("Drawing square:");
+        super.draw(); //   it gives us the implementation of draw() method ==> Drawing a shape
         System.out.println("\t* * * * * *");
         for (int i = 0; i < 4; i++) {
             System.out.println("\t*         *");
