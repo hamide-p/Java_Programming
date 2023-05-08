@@ -33,7 +33,7 @@ public class Shape {
 
 
     public void draw() { // we declare the draw method without implementation , we implement then in the child/subclass class according to its own shape
-        System.out.println("Drawing a shape");
+        System.out.println("Drawing a " + getClass().getSimpleName() + ": "); // give the clas name
     }
 
     @Override // we override the toString() method here which it comes from the object class (parent of all classes).
