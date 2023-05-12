@@ -26,7 +26,7 @@ public class Tesla extends Car {
     }
 
 
-    public void autoPilot() {
+    public final void autoPilot() { // using final method prevents from overriding by another classes
         System.out.println(getMake() + " " + getModel() + " is in self-driving mode");
     }
 
