@@ -75,7 +75,8 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    public abstract void work(); // abstract method meant to be OVERRIDDEN!!
+    public abstract void work(); // abstract method (uncompleted method)
+    // abstract method meant to be OVERRIDDEN!!
     // public abstract final void work(); // FINAL, STATIC, PRIVATE
     //                 static                                        CAN NOT
     // private                                                                 BE OVERRIDDEN!!
