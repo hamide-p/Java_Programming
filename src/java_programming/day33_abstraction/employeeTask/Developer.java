@@ -26,8 +26,7 @@ public class Developer extends Employee {
     @Override
     public String toString() {
         return super.toString().replace("}", "") +
-                ", programming language =" + programmingLanguage + "}"// short usage of calling toString() from employee (parent) class
-
+                ", programming language =" + programmingLanguage + "}"; // short usage of calling toString() from employee (parent) class
 
     }
 }
