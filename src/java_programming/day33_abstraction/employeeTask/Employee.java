@@ -2,6 +2,8 @@ package java_programming.day33_abstraction.employeeTask;
 
 public abstract class Employee {
     //  public abstract class Employee { // we can not use final , this class must be a parent class
+    // abstract class is also a generic class that we can not create any object from here
+
     /*
     Employee:
 		Variables:
