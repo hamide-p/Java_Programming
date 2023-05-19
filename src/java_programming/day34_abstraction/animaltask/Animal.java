@@ -83,4 +83,36 @@ public abstract class Animal {
                 ", color='" + color + '\'' +
                 '}';
     }
+
 }
+
+/*
+  Notes From Daily Class:
+
+  * class extends abstracts class
+  * abstract class extends abstract class
+  * abstract class extends  class
+  * class implements interfaces
+  * abstract class implements interfaces
+  * interface extends interface
+
+
+***********************************
+
+
+abstraction : abstract class & interface [there is no other option]
+
+abstract methods in an interface
+
+#1 abstract class implements interface --> do I have to implement those abstract methods ? NO
+Because abstract classes can have abstracts methods.
+
+#2 interface extends interface --> do I have to implement those abstract methods ? NO
+Because implement can have abstracts methods.
+
+#3 concrete/regular classes extends abstract class or/and interface with abstract methods in it --> do I have to implement those abstract methods ? YES
+Because concrete class can NOT have abstracts methods.
+We have to implement those abstract methods in order to do inheritance/
+
+
+ */
